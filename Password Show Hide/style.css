@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(
+    180deg,    
+    #ADBDFF,
+    #3185FC
+    );
+    /* flex-direction: column; */
+    padding: 1px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.box{
+    height: 2rem;
+    width: 18rem;
+    background-color: white;
+    padding: 7px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem auto 0.5rem;
+    /* position: relative; */
+}
+.box:active{
+    cursor: pointer;
+    border: 1px solid #bd496c;
+}
+img:hover{
+    cursor: pointer;
+}
+img{
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+#user-Password{
+    height: 76%;
+    width: 100%;
+    padding: 3px;
+    border: none;
+    border-radius: 1rem;
+}
+
+#user-Password:focus{
+    border: none;
+    outline: none;
+}
+
+.passwordStr{
+    margin: auto;
+    font-size: 1.5rem;
+}
